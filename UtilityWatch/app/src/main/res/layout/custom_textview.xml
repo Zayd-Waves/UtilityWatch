@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+Custom Text View that changes the Choice Fragment's ListView
+text colour to white
+
+ -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv"
+    android:textColor="#00695C"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="fill_parent"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"/>

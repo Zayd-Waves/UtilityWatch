@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Utility Watch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Help Activity Strings -->
+    <string name="action_help">Help</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="paragraph_1">Coin Flip lets you spin a coin to randomly get either Heads or Tails.</string>
+    <string name="paragraph_2">Counter lets you count things by clicking the Add button. Your count is saved
+    even when you close the app. Press the Clear button to start at 0.</string>
+    <string name="paragraph_3">Finally, with Choice you can add any number of things to a list and press the Choose!
+    button to randomly select a choice from the list.</string>
+    <string name="paragraph_4">More items for the Utility Watch will be added soon!</string>
+
+    <!-- Coin Flip Fragment Strings -->
+    <string name="flipButtonText">Flip!</string>
+
+    <!-- Counter Fragment Strings -->
+    <string name="addButtontext">Add</string>
+    <string name="clearButtonText">Clear</string>
+
+    <!-- Choice Fragment Strings -->
+    <string name="addChoiceButtonText">Add Choice</string>
+    <string name="chooseButtonText">Choose!</string>
+    <string name="clearChoicesButtonText">Clear Choices</string>
+
+</resources>
