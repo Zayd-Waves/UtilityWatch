@@ -2,9 +2,7 @@
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:oneshot="true">
 
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
+    <!--                     Start fast                 -->
 
     <item
         android:duration="15"
@@ -28,51 +26,43 @@
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
+        android:drawable="@mipmap/coin_spin_6_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
+        android:drawable="@mipmap/coin_spin_7_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
+        android:drawable="@mipmap/coin_spin_8_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
+        android:drawable="@mipmap/coin_spin_9_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
+        android:drawable="@mipmap/coin_spin_1_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
+        android:drawable="@mipmap/coin_spin_2_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
+        android:drawable="@mipmap/coin_spin_3_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
+        android:drawable="@mipmap/coin_spin_4_silver"/>
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="15"
@@ -96,22 +86,6 @@
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
         android:drawable="@mipmap/coin_spin_1"/>
 
     <item
@@ -125,6 +99,50 @@
     <item
         android:duration="15"
         android:drawable="@mipmap/coin_spin_4"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_1_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_2_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_3_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_4_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="15"
@@ -148,22 +166,6 @@
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
         android:drawable="@mipmap/coin_spin_1"/>
 
     <item
@@ -177,6 +179,50 @@
     <item
         android:duration="15"
         android:drawable="@mipmap/coin_spin_4"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_1_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_2_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_3_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_4_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="15"
@@ -200,22 +246,6 @@
 
     <item
         android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
         android:drawable="@mipmap/coin_spin_1"/>
 
     <item
@@ -229,6 +259,50 @@
     <item
         android:duration="15"
         android:drawable="@mipmap/coin_spin_4"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_1_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_2_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_3_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_4_silver"/>
+
+    <item
+        android:duration="15"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="15"
@@ -250,489 +324,9 @@
         android:duration="15"
         android:drawable="@mipmap/coin_spin_9"/>
 
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
 
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
 
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="15"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
+    <!--                       Slow down                  -->
 
     <item
         android:duration="50"
@@ -756,51 +350,43 @@
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_6"/>
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_7"/>
+        android:drawable="@mipmap/coin_spin_6_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_8"/>
+        android:drawable="@mipmap/coin_spin_7_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_9"/>
+        android:drawable="@mipmap/coin_spin_8_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
+        android:drawable="@mipmap/coin_spin_9_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
+        android:drawable="@mipmap/coin_spin_1_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_12"/>
+        android:drawable="@mipmap/coin_spin_2_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
+        android:drawable="@mipmap/coin_spin_3_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_1"/>
+        android:drawable="@mipmap/coin_spin_4_silver"/>
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_4"/>
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="50"
@@ -824,22 +410,6 @@
 
     <item
         android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="50"
         android:drawable="@mipmap/coin_spin_1"/>
 
     <item
@@ -853,6 +423,50 @@
     <item
         android:duration="50"
         android:drawable="@mipmap/coin_spin_4"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_5"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_1_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_2_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_3_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_4_silver"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
         android:duration="50"
@@ -874,172 +488,91 @@
         android:duration="50"
         android:drawable="@mipmap/coin_spin_9"/>
 
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
+
+
+
+
+
+    <!-- Last step -->
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="50"
+        android:duration="100"
         android:drawable="@mipmap/coin_spin_1"/>
 
     <item
-        android:duration="50"
+        android:duration="100"
         android:drawable="@mipmap/coin_spin_2"/>
 
     <item
-        android:duration="50"
+        android:duration="100"
         android:drawable="@mipmap/coin_spin_3"/>
 
     <item
-        android:duration="50"
+        android:duration="100"
         android:drawable="@mipmap/coin_spin_4"/>
 
     <item
-        android:duration="50"
+        android:duration="100"
         android:drawable="@mipmap/coin_spin_5"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_6"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_7"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_8"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_9"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_1_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_12"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_2_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_3_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_1"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_4_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_2"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_3"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_5_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_4"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_6_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_5"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_7_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_6"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_8_silver"/>
 
     <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_12"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_0"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_1"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_2"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_3"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_4"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_5"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_6"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_7"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_8"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_9"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_10"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_11"/>
-
-    <item
-        android:duration="50"
-        android:drawable="@mipmap/coin_spin_12_tails"/>
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_9_silver"/>
 
 </animation-list>

@@ -6,24 +6,57 @@
 
     <!-- Help Activity Strings -->
     <string name="action_help">Help</string>
+    <string name="help_title">Utility Watch Help</string>
     <string name="title_activity_help">HelpActivity</string>
-    <string name="paragraph_1">Coin Flip lets you spin a coin to randomly get either Heads or Tails.</string>
-    <string name="paragraph_2">Counter lets you count things by clicking the Add button. Your count is saved
-    even when you close the app. Press the Clear button to start at 0.</string>
-    <string name="paragraph_3">Finally, with Choice you can add any number of things to a list and press the Choose!
-    button to randomly select a choice from the list.</string>
-    <string name="paragraph_4">More items for the Utility Watch will be added soon!</string>
+
+    <string name="paragraph_1">Tap the coin to randomly get either the copper side
+        (heads) or the silver side (tails).
+        Credit for the awesome coin animation goes to Clint Bellanger for Liberated Pixel Art.</string>
+
+    <string name="paragraph_2">Count things by clicking the Add and/or Subtract buttons. Your count is saved
+    even after you close the app. Press the Clear button to start at 0.</string>
+    <string name="paragraph_3">Add any number of things to a list and press the Choose!
+    button to randomly select a choice from the list. Tap any entry in the list to delete it.</string>
+    <string name="paragraph_4">Tap the dice to roll them. You can choose from 6, 12 or 20 sided dice.</string>
+    <string name="paragraph_5">Enter the text you want to encrypt or decrypt in the text box, choose a number from
+    the selector on the left and press either button. Cipher uses a Caesar shift algorithm for the encryption
+    so if you\'d like to decrypt messages, use the same key that was used to encrypt it. Copy your secret message and share!</string>
+    <string name="title1">Coin Flip</string>
+    <string name="title2">Counter</string>
+    <string name="title3">Choice</string>
+    <string name="title4">Dice</string>
+    <string name="title5">Cipher</string>
 
     <!-- Coin Flip Fragment Strings -->
-    <string name="flipButtonText">Flip!</string>
+    <string name="coinLabel">Tap the coin!</string>
+    <string name="coinDescription">Coin</string>
 
     <!-- Counter Fragment Strings -->
-    <string name="addButtontext">Add</string>
+    <string name="addButtonText">Add</string>
     <string name="clearButtonText">Clear</string>
+    <string name="subButtonText">Subtract</string>
+    <string name="startingNum">0</string>
 
     <!-- Choice Fragment Strings -->
     <string name="addChoiceButtonText">Add Choice</string>
     <string name="chooseButtonText">Choose!</string>
     <string name="clearChoicesButtonText">Clear Choices</string>
+
+    <!-- Dice Fragment Strings -->
+    <string name="diceLabelText">Touch the dice!</string>
+    <string name="choice6Text">6 Sided Dice</string>
+    <string name="choice12Text">12 Sided Dice</string>
+    <string name="choice20Text">20 Sided Dice</string>
+    <string name="oneDiceChoice">1 Dice</string>
+    <string name="twoDiceChoice">2 Dice</string>
+
+    <!-- Cipher fragment Strings -->
+    <string name="hintText">Type your message here</string>
+    <string name="hintText2">Choose a number from 1-25 to encrypt or decrypt the message.</string>
+    <string name="encryptButtonText">Encrypt</string>
+    <string name="decryptButtonText">Decrypt</string>
+
+    <!-- Miscellaneous -->
+    <string name="shareAction">Share</string>
 
 </resources>

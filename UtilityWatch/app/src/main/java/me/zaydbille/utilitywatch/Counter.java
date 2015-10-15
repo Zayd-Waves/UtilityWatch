@@ -27,14 +27,16 @@ public class Counter extends Fragment {
         // Initializing the view objects
         final TextView counter = (TextView) v.findViewById(R.id.counterText);
         Button addButton = (Button) v.findViewById(R.id.addButton);
+        Button subButton = (Button) v.findViewById(R.id.subButton);
         Button clearButton = (Button) v.findViewById(R.id.clearButton);
+
         counter.setText(((MainActivity)getActivity()).getCount() + "");
 
         // Listener for the Add Button
         addButton.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-                ((MainActivity)getActivity()).addCount();
-                counter.setText(((MainActivity)getActivity()).getCount() + "");
+                ((MainActivity) getActivity()).addCount();
+                counter.setText(((MainActivity) getActivity()).getCount() + "");
             }
         });
 
@@ -42,6 +44,15 @@ public class Counter extends Fragment {
         clearButton.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 ((MainActivity)getActivity()).clearCount();
+                counter.setText(((MainActivity)getActivity()).getCount() + "");
+            }
+        });
+
+
+        // Listener for the Subtract Button
+        subButton.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).subtractCount();
                 counter.setText(((MainActivity)getActivity()).getCount() + "");
             }
         });

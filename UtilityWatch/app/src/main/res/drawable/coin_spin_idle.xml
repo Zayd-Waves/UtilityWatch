@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_1"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_2"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_3"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_4"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_5"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_6"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_7"/>
+    <item
+        android:duration="100"
+        android:drawable="@mipmap/coin_spin_idle_8"/>
+
+</animation-list>

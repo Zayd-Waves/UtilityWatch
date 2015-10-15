@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimaryLight">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/startingNum"
+                    android:id="@+id/counterText"
+                    android:background="@color/ColorPrimaryDark"
+                    android:textColor="#ffffffff"
+                    android:typeface="monospace"
+                    android:gravity="end"
+                    android:textSize="50sp"
+                    android:layout_marginTop="53dp"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/paddingText"
+                    android:layout_marginBottom="125dp"
+                    android:layout_marginTop="125dp" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addButtonText"
+                    android:id="@+id/addButton"
+                    android:layout_gravity="center_horizontal"
+                    android:typeface="monospace"
+                    android:textSize="30sp"
+                    android:textColor="@color/ColorPrimaryDark" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subButtonText"
+                    android:id="@+id/subButton"
+                    android:typeface="monospace"
+                    android:textSize="30sp"
+                    android:textColor="@color/ColorPrimaryDark" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clearButtonText"
+                    android:id="@+id/clearButton"
+                    android:layout_gravity="center_horizontal"
+                    android:typeface="monospace"
+                    android:textSize="30sp"
+                    android:textColor="@color/ColorPrimaryDark" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

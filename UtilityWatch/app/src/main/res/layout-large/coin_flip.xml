@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimaryLight"
+    android:id="@+id/relativeLayout1">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/coinLabel"
+                android:id="@+id/coinLabel"
+                android:layout_marginTop="63dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/coin_spinning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/coin_spin_idle"
+                android:contentDescription="@string/coinDescription"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

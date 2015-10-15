@@ -1,17 +1,19 @@
 package me.zaydbille.utilitywatch;
 
+import android.app.FragmentManager;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+//import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
 
-public class ViewPagerAdapter extends FragmentStatePagerAdapter {
+public class ViewPagerAdapter extends FragmentStatePagerAdapter  {
 
     CharSequence Titles[]; // This will Store the Titles of the Tabs which are Going to be passed when ViewPagerAdapter is created
     int NumbOfTabs; // Store the number of tabs, this will also be passed when the ViewPagerAdapter is created
 
 
     // Build a Constructor and assign the passed Values to appropriate values in the class
-    public ViewPagerAdapter(FragmentManager fm,CharSequence mTitles[], int mNumbOfTabsumb) {
+    public ViewPagerAdapter(android.support.v4.app.FragmentManager fm,CharSequence mTitles[], int mNumbOfTabsumb) {
         super(fm);
 
         this.Titles = mTitles;
@@ -37,6 +39,15 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
         {
             Choice tab3 = new Choice();
             return tab3;
+        }
+        else if(position == 3)
+        {
+            Dice tab4 = new Dice();
+            return tab4;
+        } else if(position == 4)
+        {
+            Cipher tab5 = new Cipher();
+            return tab5;
         }
         return null;
     }

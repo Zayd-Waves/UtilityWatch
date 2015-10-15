@@ -8,8 +8,8 @@ android {
         applicationId "me.zaydbille.utilitywatch"
         minSdkVersion 16
         targetSdkVersion 21
-        versionCode 3
-        versionName "1.2"
+        versionCode 7
+        versionName "1.5"
     }
     buildTypes {
         release {

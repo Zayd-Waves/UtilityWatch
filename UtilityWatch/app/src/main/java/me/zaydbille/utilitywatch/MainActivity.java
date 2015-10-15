@@ -10,14 +10,20 @@
 package me.zaydbille.utilitywatch;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.graphics.drawable.AnimationDrawable;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -27,8 +33,9 @@ public class MainActivity extends ActionBarActivity {
     ViewPager           pager;
     ViewPagerAdapter    adapter;
     SlidingTabLayout    tabs;
-    CharSequence Titles[]={"Coin Flip", "Counter", "Choice"};
-    int numTabs = 3;
+    CharSequence Titles[]={"Coin Flip", "Counter", "Choice", "Dice", "Cipher"};
+    int numTabs = 5;
+    static Menu menu; // reference to the menu and its items
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +53,7 @@ public class MainActivity extends ActionBarActivity {
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(adapter);
 
-        // Assiging the Sliding Tab Layout View
+        // Assigning the Sliding Tab Layout View
         tabs = (SlidingTabLayout) findViewById(R.id.tabs);
         tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
 
@@ -67,6 +74,8 @@ public class MainActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        menu.findItem(R.id.action_share).setVisible(false);
+        this.menu = menu;
         return true;
     }
 
@@ -87,10 +96,32 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
     // Counter Fragment helper methods
+    public static void hideShareButton() {
+        if(menu == null) {
+            return;
+        }
+        MenuItem item = menu.findItem(R.id.action_share);
+        item.setVisible(false);
+    }
+    public static void showShareButton() {
+        if(menu == null) {
+            return;
+        }
+        MenuItem item = menu.findItem(R.id.action_share);
+        item.setVisible(true);
+    }
+
+
     public void addCount() {
         Preferences.setIntPref(this, Preferences.getIntPref(this) + 1);
+    }
+
+    public void subtractCount() {
+        if(Preferences.getIntPref(this) == 0) {
+            return;
+        }
+        Preferences.setIntPref(this, Preferences.getIntPref(this) - 1);
     }
 
     public void clearCount() { Preferences.setIntPref(this, 0); }

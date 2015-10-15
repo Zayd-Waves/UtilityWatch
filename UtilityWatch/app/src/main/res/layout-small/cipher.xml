@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ColorPrimaryLight">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:textColor="#00695C"
+                    android:inputType="textMultiLine"
+                    android:maxLines="3"
+                    android:hint="@string/hintText"
+                    android:typeface="monospace" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical">
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/encryptButtonText"
+                        android:id="@+id/encryptButton"
+                        android:layout_weight="1"
+                        android:typeface="monospace"
+                        android:textColor="@color/ColorPrimaryDark" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/decryptButtonText"
+                        android:id="@+id/decryptButton"
+                        android:textColor="@color/ColorPrimaryDark"
+                        android:typeface="monospace"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <NumberPicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/numberPicker"
+                        android:solidColor="@color/ColorPrimaryDark" />
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="181dp"
+                        android:id="@+id/scrollView3" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="134dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:id="@+id/cipherMessage"
+                            android:textColor="@color/ColorPrimaryDark"
+                            android:focusable="true"
+                            android:text="@string/hintText2"
+                            android:textSize="18sp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:textIsSelectable="true"
+                            android:typeface="monospace" />
+                    </ScrollView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

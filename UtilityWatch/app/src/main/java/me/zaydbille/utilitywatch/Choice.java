@@ -16,6 +16,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -44,7 +45,7 @@ public class Choice extends Fragment {
         chooseButton = (Button) v.findViewById(R.id.chooseButton);
         clearButton = (Button) v.findViewById(R.id.clearButton);
         editText = (EditText) v.findViewById(R.id.editText);
-        listView = (ListView) v.findViewById(R.id.listview);
+        listView = (ListView) v.findViewById(R.id.listView);
 
         // Populate the list with saved values
         list = ((MainActivity)getActivity()).getList();
@@ -85,6 +86,7 @@ public class Choice extends Fragment {
                 Toast result  = Toast.makeText(getActivity(), random, Toast.LENGTH_SHORT);
                 result.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL, 0, 0);
                 result.show();
+                ((MainActivity)getActivity()).saveList(list);
             }
         });
 
@@ -96,6 +98,19 @@ public class Choice extends Fragment {
                 }
                 list.clear();
                 adapter.notifyDataSetChanged();
+                ((MainActivity)getActivity()).saveList(list);
+            }
+        });
+
+
+        // Listener for the List View
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String item = (String)list.get(position);
+                adapter.remove(item);
+                adapter.notifyDataSetChanged();
+                ((MainActivity)getActivity()).saveList(list);
             }
         });
 
