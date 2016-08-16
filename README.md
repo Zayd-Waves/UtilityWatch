@@ -3,7 +3,7 @@
 ## About
 Pokemon Diamond is my favourite Pokemon game. In it, there's a really cool item called the Poketch which has a bunch of tools that help you play the game. I decided that I wanted to recreate it on Android.
 
-<img style="float: right;" src="https://raw.githubusercontent.com/Zayd-Waves/utility-watch/master/poketch.png">
+<img style="display:inline; margin: 0 auto;" src="https://raw.githubusercontent.com/Zayd-Waves/utility-watch/master/poketch.png">
 
 ![alt-text][poketch]
 [poketch]:https://github.com/Zayd-Waves/utility-watch/blob/master/poketch.png "Poketch"
