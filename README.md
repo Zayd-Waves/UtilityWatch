@@ -6,7 +6,7 @@ Pokemon Diamond is my favourite Pokemon game. In it, there's a really cool item 
 <img style="float: right;" src="https://raw.githubusercontent.com/Zayd-Waves/utility-watch/master/poketch.png">
 
 ![alt-text][poketch]
-[poketch]:https://github.com/Zayd-Waves/utility-watch/blob/master/poketch.png "Poketch"
+| [poketch]:https://github.com/Zayd-Waves/utility-watch/blob/master/poketch.png "Poketch"
 
 ## Download 
 Utility Watch is on the Google Play Store!
