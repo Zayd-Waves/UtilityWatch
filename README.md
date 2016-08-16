@@ -5,9 +5,8 @@ Pokemon Diamond is my favourite Pokemon game. In it, there's a really cool item 
 
 <img style="display:inline; margin: 0 auto;" src="https://raw.githubusercontent.com/Zayd-Waves/utility-watch/master/poketch.png">
 
-![alt-text][poketch]
-
 <div style="text-align:center" markdown="1">
+![alt-text][poketch]
 [poketch]:https://github.com/Zayd-Waves/utility-watch/blob/master/poketch.png "Poketch"
 </div>
 
